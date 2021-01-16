@@ -1,4 +1,4 @@
-## Interface: 90001
+## Interface: 90002
 ## Author: karlsnyder, vallantv
 ## Version: 4.0.4
 ## Title: MinimapButtonBag
