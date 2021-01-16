@@ -65,7 +65,7 @@
 			<OnEnter>
 				MBB_ShowTimeout = -1;
 				GameTooltip:SetOwner(self, "ANCHOR_LEFT");
-				GameTooltip:AddLine("MinimapButtonBag v" .. MBB_Version);
+				GameTooltip:AddLine("MinimapButtonBag Reborn");
 				GameTooltip:AddLine(MBB_TOOLTIP1, 0, 1, 0);
 				GameTooltip:Show();
 			</OnEnter>

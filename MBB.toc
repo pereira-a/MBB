@@ -1,7 +1,7 @@
 ## Interface: 90002
 ## Author: skunfly (former: karlsnyder, vallantv)
 ## Version: 4.0.4
-## Title: MinimapButtonBag
+## Title: MinimapButtonBag-Reborn
 ## X-Category: Map
 ## Notes: Cleans up minimap buttons and makes them accessible through a pop out menu!
 ## Notes-frFR: Liberez votre minimap de ses boutons et rendez les accessibles avec un menu deroulant!
