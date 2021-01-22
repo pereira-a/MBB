@@ -25,7 +25,7 @@
 			<Layer level="BACKGROUND">
 				<Texture name="$parent_Texture" file="Interface\ICONS\artifactability_FireMage_PhoenixBolt">
 					<Size>
-						<AbsDimension x="22" y="22" />
+						<AbsDimension x="17" y="17" />
 					</Size>
 					<Anchors>
 						<Anchor point="TOPLEFT">
@@ -38,9 +38,9 @@
 				</Texture>
 			</Layer>
 			<Layer level="OVERLAY">
-				<Texture file="Interface\Artifacts\ArtifactPower-QuestBorder">
+				<Texture file="Interface\Minimap\MiniMap-TrackingBorder">
 					<Size>
-						<AbsDimension x="40" y="40" />
+						<AbsDimension x="56" y="56" />
 					</Size>
 					<Anchors>
 						<Anchor point="TOPLEFT" />
