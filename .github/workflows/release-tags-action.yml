@@ -1,12 +1,12 @@
-name: "tagged-release"
+name: "release-tag"
 
 on:
   push:
     tags:
-      - "v*"
+      - "*-release"
 
 jobs:
-  tagged-release:
+  release-tag:
     name: "Tagged Release"
     runs-on: "ubuntu-latest"
 
