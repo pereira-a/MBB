@@ -15,6 +15,7 @@ jobs:
       - run: bash release.sh
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
           files: |
             .release/*.zip
