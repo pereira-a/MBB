@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - run: sh release.sh
+      - run: bash release.sh
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           prerelease: false
