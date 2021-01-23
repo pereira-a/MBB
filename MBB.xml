@@ -662,7 +662,7 @@
 		</Frames>
 		<Scripts>
 			<OnShow>
-				MBB_OptionsFrame_HeaderText:SetText("MBB v" .. MBB_Version .. " " .. MBB_OPTIONS_HEADER);
+				MBB_OptionsFrame_HeaderText:SetText("MBB" .. " " .. MBB_OPTIONS_HEADER);
 				MBB_UpdateAltRadioButtons();
 			</OnShow>
 		</Scripts>
