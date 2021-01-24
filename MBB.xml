@@ -25,12 +25,12 @@
 			<Layer level="BACKGROUND">
 				<Texture name="$parent_Texture" file="Interface\ICONS\artifactability_FireMage_PhoenixBolt">
 					<Size>
-						<AbsDimension x="17" y="17" />
+						<AbsDimension x="18" y="18" />
 					</Size>
 					<Anchors>
 						<Anchor point="TOPLEFT">
 							<Offset>
-								<AbsDimension x="8" y="-8" />
+								<AbsDimension x="9" y="-7" />
 							</Offset>
 						</Anchor>
 					</Anchors>
