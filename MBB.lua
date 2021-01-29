@@ -735,16 +735,12 @@ function MBB_IsKnownButton(name, opt)
 	return false;
 end
 
-function MBB_HasScript(child)
-	return (child:HasScript("OnClick") or child:HasScript("OnMouseUp"))
-end
-
 function MBB_OnUpdate(elapsed)
 	if( MBB_CheckTime >= 3 ) then
 		MBB_CheckTime = 0;
 		local children = {Minimap:GetChildren()};
 		for _, child in ipairs(children) do
-			if( MBB_HasScript(child) and not child.oshow and child:GetName() and not MBB_IsKnownButton(child:GetName(), 3) ) then
+			if( child:HasScript("OnClick") and not child.oshow and child:GetName() and not MBB_IsKnownButton(child:GetName(), 3) ) then
 				MBB_PrepareButton(child:GetName());
 				if( not MBB_IsInArray(MBB_Exclude, child:GetName()) ) then
 					MBB_AddButton(child:GetName());
@@ -991,9 +987,9 @@ function MBB_NotSureIfThisIsNeeded()
 				end
 			end
 			if( not ignore ) then
-				if( not MBB_HasScript(child) ) then
+				if( not child:HasScript("OnClick") ) then
 					for _,subchild in ipairs({child:GetChildren()}) do
-						if( MBB_HasScript(subchild) ) then
+						if( subchild:HasScript("OnClick") ) then
 							child = subchild;
 							child.hasParentFrame = true;
 							break;
