@@ -214,7 +214,7 @@
 		<Frames>
 			<Slider name="$parent_TimeoutSlider" inherits="OptionsSliderTemplate" minValue="0" maxValue="0">
 				<Anchors>
-					<Anchor relativeFrom="TOPLEFT" point="TOPLEFT" relativeTo="$parent">
+					<Anchor point="TOPLEFT" relativeTo="$parent">
 						<Offset>
 							<AbsDimension x="150" y="-45" />
 						</Offset>
@@ -607,7 +607,7 @@
 					<AbsDimension x="125" y="21" />
 				</Size>
 				<Anchors>
-					<Anchor relativeFrom="TOPLEFT" point="TOP" relativeTo="$parent">
+					<Anchor point="TOP" relativeTo="$parent">
 						<Offset>
 							<AbsDimension x="-75" y="-245" />
 						</Offset>
@@ -647,7 +647,7 @@
 					<AbsDimension x="125" y="21" />
 				</Size>
 				<Anchors>
-					<Anchor relativeFrom="TOPLEFT" point="TOP" relativeTo="$parent">
+					<Anchor point="TOP" relativeTo="$parent">
 						<Offset>
 							<AbsDimension x="75" y="-245" />
 						</Offset>
