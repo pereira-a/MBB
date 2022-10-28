@@ -105,7 +105,7 @@ MBB_Ignore = {
 	[46] = "DugisArrowMinimapPoint1",  --Dugi Guides arrow
 	[47] = "DugisArrowMinimapPoint2",  --Dugi Guides arrow
 	[48] = "DugisArrowMinimapPoint3",  --Dugi Guides arrow
-	[49] = "TTMinimapButton1" -- Tom tom / Wow-pro guides
+	[49] = "TTMinimapButton" -- Tom tom / Wow-pro guides
 };
 
 MBB_IgnoreSize = {
