@@ -1,4 +1,4 @@
-## Interface: 100000
+## Interface: 100002
 ## Author: skunfly (former: karlsnyder, vallantv)
 ## Contributors: CosmicCleric
 ## Version: 4.0.16
