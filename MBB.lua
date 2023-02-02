@@ -108,7 +108,8 @@ MBB_Ignore = {
 	[47] = "DugisArrowMinimapPoint2",  --Dugi Guides arrow
 	[48] = "DugisArrowMinimapPoint3",  --Dugi Guides arrow
 	[49] = "TTMinimapButton", -- Tom tom / Wow-pro guides
-	[50] = "QueueStatusButton" -- ElvUI Queue Button
+	[50] = "QueueStatusButton", -- ElvUI Queue Button
+	[51] = "GatherMateTreasuresPin", -- Gathermate Treasures
 };
 
 MBB_IgnoreSize = {
