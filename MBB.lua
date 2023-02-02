@@ -347,7 +347,7 @@ function MBB_PrepareButton(name)
 	
 	if( buttonframe ) then
 		if( buttonframe.RegisterForClicks ) then
-			buttonframe:RegisterForClicks("LeftButtonDown","RightButtonDown");
+			buttonframe:RegisterForClicks("LeftButtonDown","RightButtonDown","MiddleButtonDown");
 		end
 		
 		buttonframe.isvisible = buttonframe:IsVisible();
