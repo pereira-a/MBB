@@ -8,7 +8,7 @@
 	
 ]]
 
-MBB_Version = "4.0.15";
+MBB_Version = "4.0.19";
 
 -- Setup some variable for debugging.
 MBB_DebugFlag = 0;
