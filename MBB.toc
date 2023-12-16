@@ -1,7 +1,7 @@
 ## Interface: 100200
 ## Author: skunfly (former: karlsnyder, vallantv)
 ## Contributors: CosmicCleric
-## Version: 4.0.22
+## Version: 4.0.23
 ## Title: MinimapButtonBag-Reborn
 ## X-Category: Map
 ## X-Curse-Project-ID: 436829
